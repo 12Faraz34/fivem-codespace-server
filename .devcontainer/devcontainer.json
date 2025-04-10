@@ -1,0 +1,8 @@
+{
+  "name": "FiveM Dev Server",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "postCreateCommand": "./setup.sh"
+}
